@@ -26,7 +26,7 @@ int main(int argc, char *argv[]) {
     ex_4();
     break;
   default:
-    std::cerr << "\033[31mExercise is not exist\033[0m\n";
+    std::cerr << "\033[31mExercise does not exist\033[0m\n";
     return 2;
   }
 

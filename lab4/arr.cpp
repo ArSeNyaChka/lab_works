@@ -32,6 +32,8 @@ int arr() {
   ex2(arr, n);
   ex3(arr, n);
 
+  delete[] arr;
+
   return 0;
 }
 
@@ -87,6 +89,8 @@ void ex3(int *arr, size_t len) {
     sorted_arr[i] = 0;
 
   std::cout << "Sorted array: " << arr_to_string(sorted_arr, len) << '\n';
+
+  delete[] sorted_arr;
 }
 
 // Перегрузить оператор вывода не получилось :(
