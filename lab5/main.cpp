@@ -1,11 +1,10 @@
 #include <iostream>
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
- * * * * * * * * * * Компилируется только под 20+ стандартом * g++ -std=c++20
- * lab5/main.cpp lab5/string.cpp lab5/char.cpp lab5/vecroe.cpp -o
- * lab5/build/main *
- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
- * * * * * * * * * */
+/*
+ * Компилируется только под 20+ стандартом
+ * g++ -std=c++20 lab5/main.cpp lab5/string.cpp lab5/char.cpp lab5/vecroe.cpp -o
+ * lab5/build/main
+ */
 
 void ex1();
 void ex2();

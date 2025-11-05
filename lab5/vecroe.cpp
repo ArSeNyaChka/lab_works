@@ -43,7 +43,7 @@ void ex6() {
   std::cout << "Enter num of string: ";
   std::cin >> numsring;
   std::vector<std::string> strings;
-  for (; numsring > 0; numsring--) {
+  for (; numsring >= 0; numsring--) {
     std::string s;
     std::getline(std::cin, s);
     strings.push_back(s);
