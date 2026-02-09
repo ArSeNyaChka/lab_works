@@ -222,14 +222,18 @@ void saveList(ListNode *&list) {
 
     while (node != nullptr) {
       const Ball &ball = node->value;
+
       int intType = (int) ball.type;
       f.write((const char*) &intType, sizeof(intType));
+
       size_t strLen = ball.color.size();
       f.write((const char*) &strLen, sizeof(strLen));
       f.write(ball.color.data(), strLen);
+
       strLen = ball.brand.size();
       f.write((const char*) &strLen, sizeof(strLen));
       f.write(ball.brand.data(), strLen);
+      
       f.write((const char*) &ball.coast, sizeof(ball.coast));
       f.write((const char*) &ball.quantity, sizeof(ball.quantity));
 
