@@ -23,7 +23,7 @@ bool change(const T &elem_1, const T &elem_2, T *arr, std::size_t size) {
     if (index_1 == -1 || index_2 == -1)
         return false;
     
-    std::swap(&arr[index_1], &arr[index_2]);
+    std::swap(arr[index_1], arr[index_2]);
     return true;
 }
 
