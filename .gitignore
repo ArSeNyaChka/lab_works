@@ -3,3 +3,6 @@
 **/*.out
 **/*.exe
 **/tests/
+
+**/out/
+**/*.class
